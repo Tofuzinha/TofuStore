@@ -1,0 +1,28 @@
+@import "styles/variaveis";
+
+.filters {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  &__filter {
+    align-items: center;
+    background-color: #ff0a62;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    font-size: 1.125rem;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    width: 150px;
+    &--active {
+      background-color: #ff6c83;
+      color: #b70568;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
