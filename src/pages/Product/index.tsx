@@ -4,6 +4,7 @@ import { ReactComponent as Logo } from "assets/logo.svg";
 import Search from "./Search";
 import Filter from "./Filter";
 import Order from "./Order";
+import Itens from "./Itens";
 
 export default function Product() {
   const [searchFilter, setSearchFilter] = useState("");
@@ -30,6 +31,7 @@ export default function Product() {
           <Filter filter={filter} setFilter={setFilter} />
           <Order order={order} setOrder={setOrder} />
         </div>
+        <Itens searchFilter={searchFilter} filter={filter} order={order} />
       </section>
     </main>
   );

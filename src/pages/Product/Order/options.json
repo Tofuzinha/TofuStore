@@ -5,14 +5,14 @@
   },
   {
     "name": "Tipo",
-    "value": "tipo"
+    "value": "type"
   },
   {
-    "name": "Qtd",
+    "name": "Quantidade",
     "value": "qtd"
   },
   {
     "name": "Preço",
-    "value": "preco"
+    "value": "price"
   }
 ]
